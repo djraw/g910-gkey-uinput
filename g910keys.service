@@ -8,7 +8,7 @@ After=multi-user.target
 Type=idle
 Restart=always
 RestartSec=10 
-ExecStart=/usr/bin/python /home/raw/.services/g910/g910-gkey-uinput.py
+ExecStart=/usr/bin/python /path/to/g910-gkey-uinput.py
 
 [Install]
 WantedBy=multi-user.target
