@@ -2,7 +2,7 @@
 
 Install these required packages
 
-`sudo apt install python-pip libudev-dev hidraw nano`
+`sudo apt install python-pip libudev-dev nano`
 
 `sudo -H pip install setuptools python-uinput pyudev`
 
