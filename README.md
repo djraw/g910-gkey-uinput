@@ -7,9 +7,10 @@ Install these required packages
 `sudo -H pip install setuptools python-uinput pyudev`
 
 Copy g910-gkey-uinput.py to a folder of your liking.
-Start in a terminal with `python /path/to/g910-gkey-uinput.py` to see if it's working for you
+Start in a terminal with `python /path/to/g910-gkey-uinput.py` to see if it's working for you.
 
-Adding a systemd service unit
+
+Adding a systemd service unit to autostart the G-Keys
 `sudo nano /lib/systemd/system/g910keys.service`
 
 Paste the content of the file g910keys.service inside, change the path to match your system 
