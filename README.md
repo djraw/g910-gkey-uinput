@@ -3,7 +3,7 @@
 To use this script to make use of alternatively mapped G-keys, you need to install the g810-led command line LED controller.
 https://github.com/MatMoul/g810-led
 
-Use the command line to configure colors etc., but the most important part is to deactivate the standard mapping of the G-keys (an M respectively). Issue following command:
+Use the command line to configure colors etc., but the most important part is to deactivate the standard mapping of the G- and M-keys. Issue following command to achieve that:
 
 `g910-led -gkm 1`
 
