@@ -3,7 +3,9 @@ Description=Logitech G910 G-Keys
 After=multi-user.target
 
 [Service]
-Type=idle
+Type=simple
+Restart=always
+RestartSec=1s
 ExecStart=/usr/bin/python /path/to/g910-gkey-uinput.py
 
 [Install]
