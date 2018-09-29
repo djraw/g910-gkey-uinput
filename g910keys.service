@@ -1,12 +1,14 @@
 [Unit]
 Description=Logitech G910 G-Keys
+StartLimitBurst=10
+StartLimitInterval=120
 After=multi-user.target
 
 [Service]
-Type=simple
+Type=idle
 Restart=always
-RestartSec=1s
-ExecStart=/usr/bin/python /path/to/g910-gkey-uinput.py
+RestartSec=10 
+ExecStart=/usr/bin/python /home/raw/.services/g910/g910-gkey-uinput.py
 
 [Install]
 WantedBy=multi-user.target
