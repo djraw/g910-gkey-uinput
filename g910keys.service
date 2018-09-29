@@ -1,0 +1,10 @@
+[Unit]
+Description=Logitech G910 G-Keys
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/python /path/to/g910-gkey-uinput.py
+
+[Install]
+WantedBy=multi-user.target
