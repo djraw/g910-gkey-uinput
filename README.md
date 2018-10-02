@@ -10,9 +10,15 @@ Use the command line to configure colors etc., but the most important part is to
 -----------------------------------------------------
 Then install these required packages
 
+Python 2
 `sudo apt install python-pip libudev-dev nano`
 
 `sudo -H pip install setuptools python-uinput pyudev`
+
+Python 3
+`sudo apt install python3-pip libudev-dev nano`
+
+`sudo python3 -m pip install setuptools python-uinput pyudev`
 
 Copy g910-gkey-uinput.py to a folder of your liking.
 Start in a terminal with `python /path/to/g910-gkey-uinput.py` to see if it's working for you.
