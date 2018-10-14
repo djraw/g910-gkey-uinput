@@ -9,7 +9,7 @@ context = pyudev.Context()
 device = None
 for hidraw in glob.glob("/dev/hidraw*"):
     dev = pyudev.Devices.from_device_file(context, hidraw)
-    if "046D:C335.0004" in dev.device_path:
+    if "046D:C335.0009" in dev.device_path:
         device = hidraw
 
 g1 = uinput.KEY_F17
